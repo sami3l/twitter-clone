@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chatscope/chat-ui-kit-react": "^2.0.3",
+    "@chatscope/chat-ui-kit-styles": "^1.4.0",
+    "@mui/icons-material": "^5.15.20",
     "@tanstack/react-query": "^5.29.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

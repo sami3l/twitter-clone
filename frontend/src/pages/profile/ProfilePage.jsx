@@ -5,6 +5,7 @@ import Posts from "../../components/common/Posts";
 import ProfileHeaderSkeleton from "../../components/skeletons/ProfileHeaderSkeleton";
 import EditProfileModal from "./EditProfileModal";
 
+// import Post from "../../../../backend/models/post.model"
 import { POSTS } from "../../utils/db/dummy";
 
 import { FaArrowLeft } from "react-icons/fa6";
@@ -72,6 +73,8 @@ const ProfilePage = () => {
 	useEffect(() => {
 		refetch();
 	}, [username, refetch]);
+
+	// const PostCount = Post.find({ user: user._id }).countDocuments();
 
 	return (
 		<>
